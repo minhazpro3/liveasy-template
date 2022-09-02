@@ -155,6 +155,16 @@
 }
 
 .select-sec-parents {
+  background-image: linear-gradient(
+    to left,
+    rgba(3, 32, 134, 0.73) 0%,
+    rgba(3, 32, 134, 0) 43.75%
+  );
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-bottom-left-radius: 99%;
+  border-top-left-radius: 99%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,4 +197,39 @@
   border-left: 4px dashed rgb(0, 0, 0);
   padding-left: 40px;
   margin-left: 35px;
+}
+
+.timeline {
+  border: 2px solid rgba(126, 110, 110, 0.38);
+  background-color: rgba(126, 110, 110, 0.38);
+  width: 70%;
+  border-radius: 33px;
+  margin-left: 217px;
+  margin-bottom: 119px;
+  margin-top: 138px;
+}
+
+/* section 3 */
+.three-title-sec {
+  margin: 0px 55px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.three-title {
+  line-height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+}
+.three-second-title {
+  line-height: 36px;
+  text-align: center;
+  color: rgba(126, 110, 110, 0.72);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Poppins";
 }
