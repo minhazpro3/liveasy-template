@@ -272,6 +272,7 @@
 }
 
 /* fingerprints */
+
 .info-finger {
   font-family: "Poppins";
   line-height: 96px;
@@ -280,4 +281,71 @@
   text-align: center;
   font-weight: 600;
   font-size: 64px;
+}
+
+.info-description {
+  text-align: center !important;
+  color: rgba(126, 110, 110, 0.67);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  font-family: "Poppins";
+  margin: 0px 0px 115px 0px;
+}
+
+/* sections five */
+.arrows {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.arrows h4 {
+  color: #152968;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 31px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.profile h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+#sign_out {
+  border-left: 2px solid #c4c4c4;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+.location_profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 130px;
+}
+
+.slide-col {
+  display: flex;
+  justify-content: center;
+}
+
+.img_dot {
+  display: flex;
+  justify-content: center;
+  margin-top: 116px;
+  margin-bottom: 155px;
 }
