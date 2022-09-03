@@ -233,3 +233,51 @@
   font-size: 24px;
   font-family: "Poppins";
 }
+
+/* section four */
+.GPS-track {
+  background-color: #000066;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 530px;
+  align-items: center;
+  color: white;
+  position: relative;
+  margin-top: 255px;
+  padding: 80px 10px;
+}
+.GPS-title-1 {
+  font-size: 48px;
+  line-height: 58px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.GPS-title-2 {
+  font-size: 36px;
+  line-height: 58px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.GPS-img {
+  position: absolute;
+  right: 50px;
+  left: 50px;
+  display: flex;
+  justify-content: center !important;
+}
+
+/* fingerprints */
+.info-finger {
+  font-family: "Poppins";
+  line-height: 96px;
+  font-style: normal;
+  margin-top: 167px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 64px;
+}
