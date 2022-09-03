@@ -349,3 +349,50 @@
   margin-top: 116px;
   margin-bottom: 155px;
 }
+
+/* section 6  */
+.pay_secuerly {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin: 0px 68px 60px 68px;
+}
+
+.pay_texts h3 {
+  font-size: 64px;
+  line-height: 96px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.pay_texts h4 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  font-family: "Poppins";
+  color: rgba(126, 110, 110, 0.81);
+}
+.pay_texts h5 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins";
+  line-height: 72px;
+  color: #034852;
+}
+
+.payment-img {
+  position: relative;
+}
+
+.payment-done-button {
+  position: absolute;
+  line-height: 48px;
+  font-size: 32px;
+  font-weight: 600;
+  top: 73px;
+  background-color: rgba(36, 255, 0, 0.31);
+  color: #157d04;
+  border-radius: 35px;
+  border: 3px solid #24ff00;
+  padding: 15px 25px;
+}
