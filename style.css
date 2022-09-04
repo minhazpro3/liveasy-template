@@ -533,3 +533,52 @@
   align-items: center;
   gap: 1em;
 }
+
+/* about section */
+.about h4 {
+  border: 2px solid #09b778;
+  background-color: rgba(126, 110, 110, 0.38);
+  width: 136px;
+  margin: auto;
+}
+.about h3 {
+  color: white;
+  font-family: "Poppins";
+  text-align: center;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+}
+.about h6 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 47px;
+  margin: 10px 52px;
+  margin-bottom: 75px;
+}
+
+/* QA sections */
+.qa-title-parents {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 53px;
+  margin-top: 70px;
+}
+
+.qa-title-parents h3 {
+  text-decoration-line: underline;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.qa-title-parents select {
+  padding: 3px 34px;
+  border-radius: 22px;
+}
