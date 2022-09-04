@@ -566,8 +566,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 53px;
-  margin-top: 70px;
+  margin: 0px 54px;
 }
 
 .qa-title-parents h3 {
@@ -581,4 +580,74 @@
 .qa-title-parents select {
   padding: 3px 34px;
   border-radius: 22px;
+  margin: 0px 0px;
+}
+
+.qa-according {
+  margin: 0px 23px;
+  color: white;
+  margin: 0px 30px;
+}
+
+.qa-according h3 {
+  text-align: start !important;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "Inter", sans-serif;
+  border-bottom: 4px solid #d9d9d94f;
+  padding: 0px 33px 40px 33px;
+}
+
+.footer-liveasy {
+  color: white;
+  font-family: "Poppins";
+  text-align: center;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 96px;
+  margin: 0px 0px;
+}
+
+.app-bottom-button {
+  margin-left: 110px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 100px;
+}
+.app-button-two {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.app-button-two p {
+  color: white;
+  font-size: 30px;
+  padding: 0px 32px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+/* footer section */
+.footer-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text-div h4 {
+  margin: 0px 0px;
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.text-div p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #7e6e6ef7;
+  font-family: "Poppins";
 }
