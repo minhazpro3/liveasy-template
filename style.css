@@ -155,13 +155,11 @@
   margin-top: 33px;
 }
 
+.booking {
+  overflow-x: hidden;
+}
+
 .booking-main {
-  /* border: 2px solid red; */
-  /* border-radius: 66px 0px 0px 66px; */
-  /* padding: 42px 60px; */
-  /* width: 20%; */
-  /* position: relative; */
-  /* right: 5px; */
   position: relative;
 }
 .booking-main::after {
@@ -171,41 +169,23 @@
     rgba(3, 32, 134, 0.73) 0%,
     rgba(3, 32, 134, 0) 93.75%
   );
-  /* transform: matrix(0, 1, 1, 0, 0, 0); */
 
   position: absolute;
   transform: rotate(-90deg);
   width: 900px;
   height: 800px;
-  top: -70px;
+  top: -60px;
   right: -37%;
   border-radius: 70%;
   z-index: -10;
 }
 
 .select-sec-parents {
-  /* background-size: 60% 100%; */
-  /* background-repeat: no-repeat; */
-  /* background-position: right; */
-  /* border-radius: -98%; */
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 80px;
-  /* margin-top: 90px; */
-}
-.extra_parents {
-  position: relative;
-}
-
-.extra {
-  border: 2px solid red;
-  background-image: linear-gradient(to left, #032086ba 0%, #03208600 43.75%);
-  border-radius: 66px 0px 0px 66px;
-  padding: 42px 60px;
-  width: 20px;
-  position: absolute;
-  right: 5px;
+  overflow-x: hidden;
 }
 
 .select-sec {
@@ -485,12 +465,32 @@
   z-index: -20;
 }
 
-.product-details-parents {
+/* .product-details-parents {
   background-image: linear-gradient(
     to right,
     rgba(3, 32, 134, 0.73) 0%,
     rgba(3, 32, 134, 0) 43.75%
   );
+} */
+.product-details-parents {
+  position: relative;
+}
+.product-details-parents::after {
+  content: " ";
+  background: linear-gradient(
+    0deg,
+    rgba(3, 32, 134, 0.73) 20%,
+    rgba(3, 32, 134, 0) 43.75%
+  );
+
+  position: absolute;
+  transform: rotate(-90deg);
+  width: 1400px;
+  height: 1000px;
+  top: 70px;
+  left: -60%;
+  border-radius: 70%;
+  z-index: -10;
 }
 
 .product-details {
